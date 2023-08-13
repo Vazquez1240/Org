@@ -1,0 +1,38 @@
+.equipo{
+    width: 100%;
+    padding: 36px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 1.26rem;
+    font-size: 32px;
+    position: relative;
+
+}
+
+.equipo h3{
+    font-weight: 400;
+    color: #212121;
+    border-bottom: 4px solid;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 8px;
+}
+
+.colaboradores{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.input-color{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    
+}
+
+@media screen and (max-width: 480px){
+    .equipo{
+        margin-top: 1.26rem;
+    }
+}

@@ -1,0 +1,31 @@
+.formulario{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.formulario form{
+    max-width: 80%;
+    background-color: #f7f7f7;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    padding: 8px 100px;
+    flex: 1;
+}
+.formulario form h2{
+    font-family: 'Prata', serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #212121;
+}
+@media screen and (max-width: 480px){
+    .formulario{
+        margin: 0 17px;
+        margin-top: 1.45rem;
+    }
+    .form-equipos{
+        margin-top: 1.4rem;
+    }
+}
