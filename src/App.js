@@ -15,10 +15,19 @@ function App() {
     {
       id: uuid(),
       equipo: "Programacion",
-      foto: "https://scontent.ftsl1-1.fna.fbcdn.net/v/t39.30808-6/328877877_168376032633459_45415450003829493_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=be3454&_nc_eui2=AeGQsCjhoWNkGL_ZAKJfhe1SCaFaMAJhxjYJoVowAmHGNum6UpnXBqlv90mqqRSej5vdss85H3x5IMJGIDJ-ysRY&_nc_ohc=lL7poCrgtXgAX-MLY9J&_nc_ht=scontent.ftsl1-1.fna&oh=00_AfAxS669oTHDCvNicmI3kOKcDXB6_ea1TVynK-NAw08vtw&oe=64DCD6AA",
+      foto: "https://scontent.fntr6-3.fna.fbcdn.net/v/t39.30808-6/328877877_168376032633459_45415450003829493_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGQsCjhoWNkGL_ZAKJfhe1SCaFaMAJhxjYJoVowAmHGNum6UpnXBqlv90mqqRSej5vdss85H3x5IMJGIDJ-ysRY&_nc_ohc=NVOPydPnJBgAX8M_7BP&_nc_ht=scontent.fntr6-3.fna&oh=00_AfAsYeaXF1GSNrJi9vJx3awVoVa3PZGkbYLilh6y8h7y5A&oe=64E4BFAA",
       nombre:"Alexis",
       puesto:"Desarrollador",
       fav:false
+    },
+    {
+      id: uuid(),
+      equipo: "UX y Diseño",
+      foto: "https://scontent.fntr6-3.fna.fbcdn.net/v/t39.30808-6/322399119_1337075987133197_4302653912564085271_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHVk22OJMirzTcpeEAIkL0EblnHakYZfA1uWcdqRhl8Dcp7vQaIzH1o9aTPFtpsEO4TeqnYMZSBbYwxhjU2uO9y&_nc_ohc=OaN3AdtWEbQAX-tUSME&_nc_ht=scontent.fntr6-3.fna&oh=00_AfAziXypD97L2r8H8tynl-tR4gvieTg96L-HONMPPALrUQ&oe=64E54681",
+      nombre:"Perla Navarro",
+      puesto:"Diseñadora UX",
+      fav:false
+
     },
     {
       id: uuid(),
@@ -39,7 +48,7 @@ function App() {
     {
       id: uuid(),
       equipo: "UX y Diseño",
-      foto: "https://scontent.ftsl1-1.fna.fbcdn.net/v/t39.30808-6/296242378_5668899346487484_3215455917000051842_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeF4C7qOt5LsiUZMnLsponQPP1PE8UEC8Gk_U8TxQQLwae3xH7Nfd9gFOwiH9isIeUY5gORmzIGl9Vryh8nIyvYF&_nc_ohc=RKjcM3ty3jAAX8zgDq9&_nc_ht=scontent.ftsl1-1.fna&oh=00_AfCuqWI1cSXLxdr01owjbeVMBTw0j1IXVhnLgSc-GIiGBg&oe=64DD29BE",
+      foto: "https://scontent.fntr6-3.fna.fbcdn.net/v/t39.30808-6/296242378_5668899346487484_3215455917000051842_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeF4C7qOt5LsiUZMnLsponQPP1PE8UEC8Gk_U8TxQQLwae3xH7Nfd9gFOwiH9isIeUY5gORmzIGl9Vryh8nIyvYF&_nc_ohc=KV3XEOctOpEAX92Oj6a&_nc_ht=scontent.fntr6-3.fna&oh=00_AfA3liB5QpInRMME0z9vrf7TTLjQvmFFrtqO44DLxLIebw&oe=64E512BE",
       nombre:"Karen Mariel",
       puesto:"Diseñadora UX",
       fav:false
